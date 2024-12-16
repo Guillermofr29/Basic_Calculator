@@ -1,9 +1,6 @@
 # Dependencias
 /node_modules
 
-# Archivos de construcción
-/dist
-
 # Archivos de ambiente
 .env
 .env.local
