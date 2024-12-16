@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+    <div class="container mx-auto p-4">
+        <h1 class="text-xl font-bold text-center mb-4">Calculadora Básica</h1>
+        <div class="max-w-xs mx-auto card border-2 border-gray-300 rounded-md bg-black">
+            <div class="card-body p-2">
+                <div class="col-12 flex border-2 border-gray-300 rounded-md m-2">
+                    <input type="text" id="resultado" class="flex-grow input input-bordered p-2" value="0" placeholder="0" readonly>
+                    <p id="operacion" class="bg-white w-1/4 text-sm font-extralight p-2 text-center"></p>
+                </div>
+                <div class="grid grid-cols-4 gap-1 rounded-md m-2">
+                    <button id="c" class="rounded-md text-white btn btn-primary bg-blue hover:bg-blue-hover p-2 text-sm">C</button>
+                    <button id="ce" class="rounded-md text-white bg-blue hover:bg-blue-hover p-2 btn btn-primary text-sm">CE</button>
+                    <button id="backspace" class="rounded-md bg-red text-white hover:bg-red-hover p-2 btn btn-primary text-sm">⌫</button>
+                    <button id="div" class="rounded-md text-white bg-green hover:bg-green-hover p-2 btn btn-primary text-sm">÷</button>
+                    <button id="7" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">7</button>
+                    <button id="8" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">8</button>
+                    <button id="9" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">9</button>
+                    <button id="mult" class="rounded-md text-white bg-green hover:bg-gray-400 p-2 btn btn-primary text-sm">x</button>
+                    <button id="4" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">4</button>
+                    <button id="5" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">5</button>
+                    <button id="6" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">6</button>
+                    <button id="resta" class="rounded-md text-white bg-green hover:bg-gray-400 p-2 btn btn-primary text-sm">-</button>
+                    <button id="1" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">1</button>
+                    <button id="2" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">2</button>
+                    <button id="3" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">3</button>
+                    <button id="suma" class="rounded-md text-white bg-green hover:bg-gray-400 p-2 btn btn-primary text-sm">+</button>
+                    <button id="0" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">0</button>
+                    <button id="igual" class="rounded-md text-white bg-orange hover:bg-orange-hover p-2 btn btn-primary text-sm">=</button>
+                    <button id="coma" class="rounded-md bg-gray-300 hover:bg-gray-400 p-2 btn btn-primary text-sm">,</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
