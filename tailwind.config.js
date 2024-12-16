@@ -1,12 +1,14 @@
 module.exports = {
   content: [
-    "./**/*.{html,js,jsx,ts,tsx}",
+    "./dist/output.css",
+    "./index.html",
+    "./index.js",
   ],
   theme: {
     extend: {},
   },
   corePlugins: {
-    preflight: false, // Esto deshabilitará el reset de estilos
+    preflight: false,
   },
   plugins: [],
 }
